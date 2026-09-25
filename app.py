@@ -16,7 +16,7 @@ MASTER_FILE = "Master Sheet Team-B.xlsx"
 
 st.set_page_config(
     page_title="PRS Search",
-    page_icon="🔎",
+    page_icon="https://share.google/0lWz2leNhUYPDEkVl",
     layout="centered"
 )
 
@@ -397,14 +397,12 @@ if st.session_state.search_results is not None:
         # ====================================================
 
         whatsapp_message = (
-            "*PRS PAYMENT UPDATE*\n\n"
-            f"PRS No: {project_site_no}\n"
-            f"Project Name: {project_name}\n"
-            f"Site Name: {site_name}\n"
-            f"Operator: {operator_name}\n"
-            f"Payment Status: {payment_status}\n"
-            f"Ageing: {ageing}\n\n"
-            "Please check and update the payment status."
+            f"{project_site_no}\n"
+            f"{project_name}\n"
+            f"{site_name}\n"
+            f"{operator_name}\n"
+            f"{ageing}\n\n"
+            "@7208930912Please check and update the payment status."
         )
 
 
